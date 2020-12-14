@@ -55,3 +55,13 @@ if __name__ == '__main__':
     df = pd.read_csv('{}/data/data.csv.gz'.format(folder_source))
     clean_data = clean_data(df)
     print(' dataframe cleaned')
+
+
+
+def try_me(n=10):
+    if n==0:
+        return 1
+    elif n==1:
+        return 1
+    else:
+        return n*facto(n-1)
